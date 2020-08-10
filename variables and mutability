@@ -1,0 +1,24 @@
+fn main() {
+  test();
+}
+
+/*
+for mutability:
+if same variable name is going to be used then use mut
+however if let will be used then mut is not needed
+*/
+
+fn test() {
+  let mut name = "Aaron";
+  println!("Name: {}", name);
+
+  name = "BOB";
+  println!("Name: {}", name);
+  
+
+  let number = 1;
+  println!("Number: {}", number);
+
+  let number = 4;
+  println!("Number: {}", number);
+}
