@@ -1,0 +1,65 @@
+scalar  types:
+
+fn main() {
+  let one: i128 = -85;
+
+  println!("One: {}", one);
+
+  let second: i64 = -400000;
+
+  println!("Second: {}", second);
+
+  let two: f64 = 9.7;
+
+  println!("Two: {}", two);
+
+  let third: f64 = 4.555;
+
+  println!("Third: {}", third);
+
+  let value: bool = true;
+
+  println!("Value: {}", value);
+
+  let letter: char = 'A';
+
+  println!("lETTER: {}", letter);
+}
+
+
+
+
+
+
+
+
+
+
+//scalar types
+//tuples in rust
+fn main() {
+  first_tuple();
+  second_tuple();
+}
+
+fn first_tuple() {
+  let tup: (i32, f64, u8) = (500, 5.5, 1);
+
+  let (x, y, z) = tup;
+
+  println!("X: {}", x);
+  println!("Y: {}", y);
+  println!("Z: {}", z);
+  println!("<--------->");
+}
+
+
+fn second_tuple() {
+  let second: (i64, f32, u8) = (-5400, -4.4, 4);
+
+  let (a, b, c) = second;
+
+  println!("A: {}", a);
+  println!("B: {}", b);
+  println!("C: {}", c);
+}
