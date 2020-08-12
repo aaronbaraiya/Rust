@@ -35,7 +35,7 @@ fn main() {
 
 
 
-//scalar types
+//compound types
 //tuples in rust
 fn main() {
   first_tuple();
